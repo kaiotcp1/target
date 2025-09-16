@@ -21,7 +21,7 @@ export function Summary({ data, icon }: Props) {
     <View style={styles.container}>
       <View style={styles.header}>
         <MaterialIcons name={icon.name} size={16} color={icon.color} />
-        <Text style></Text>
+        <Text style={styles.label}></Text>
       </View>
     </View>
   )
