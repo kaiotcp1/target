@@ -4,6 +4,12 @@
     "slug": "target",
     "scheme": "your-app-scheme",
     "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/adaptive-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3D44CD"
+    },
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
