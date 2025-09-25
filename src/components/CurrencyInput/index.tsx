@@ -16,7 +16,6 @@ export function CurrencyInput({ label, value, ...rest }: Props) {
       <Input
         style={styles.input}
         value={value}
-        prefix="R$"
         delimiter="."
         separator=","
         precision={2}
